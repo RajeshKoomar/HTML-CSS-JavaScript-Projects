@@ -1,0 +1,26 @@
+
+body{
+   background-color: rgb(88, 87, 87);
+}
+.container{
+    background-color: rgb(252, 252, 252);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+button{
+    margin: 0px 15px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: rgb(46, 118, 253);
+    font-size: 16px;
+    border: 2px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
