@@ -1,0 +1,21 @@
+option::before:hover{
+    background-color: rgb(244, 248, 248);
+    color: #131312;
+  }
+  
+ select{
+   background-color: yellow;
+   color: rgb(34, 2, 124);
+    width: 10rem;
+    height: 50px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  div{
+    align-content: center;
+    width: 150px;
+    margin: 250px auto;
+  }
