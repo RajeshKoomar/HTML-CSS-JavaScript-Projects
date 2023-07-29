@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/95d3f97c28.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+     
+      <!-- nav bar -->
+      <div class="nav-bar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+       
+      </div>
+
+      <!-- login signup -->
+      
+      <!-- menu block -->
+      <div class="menu">
+        <ul>
+          <li>Home</li>
+          <li>Portfolio</li>
+          <li>Services</li>
+          <li>about us</li>
+
+          <!-- social links icons -->
+          <div class="socialLinks">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </ul>
+      </div>
+    </header>
+
+    <section class="form-container">
+
+      <div class="h1-h3"><br>
+        <h1>Account</h1><br>
+        <div class="nav">
+        <a class="loginBtn" href="#" >login</a>
+        <a class="signupBtn" href="#">sign-up</a>
+      </div>
+      </div>
+
+      
+      <div class="sign-up-container">
+        <form class="sign-up">
+         
+          <h1>Sign-up</h1>
+          <br>
+        <!-- <label>firstName </label> -->
+        <input type="text" placeholder="FirstName*" required="" autocomplete="additional-name">
+        <!-- <label>lastName : </label> -->
+        <input type="text" placeholder="LastName" autocomplete="additional-name">
+        <!-- <label>Email : </label> -->
+        <input type="email" placeholder="Email*" required="" autocomplete="additional-name">
+        <!-- <label>Password : </label> -->
+        <input type="password" placeholder="Password*" id="Password" required="">
+        <i class="far fa-eye-slash" onclick="display()" style="color: rgb(255, 254, 254);" id="iconPassword"></i>
+        <!-- <label>Confirm Password : </label> -->
+        <input type="password"  placeholder="ConfirmPassword*" id="confirmPassword" required="" style="margin-top: 0px;">
+        <i class="far fa-eye-slash"  onclick="displayConfirmP()" style="color: rgb(252, 250, 250); " id="iconConfirmPassword"></i>
+        <button class="submitBtn">SignUp</button>
+          
+        </form>
+      </div>
+      <!-- login page -->
+    <div class="login-c" >
+    <form class="log-in">
+      <div class="login-container">
+      <h1>Log-in</h1>
+      <br>
+        <!-- <label>Email : </label> --> 
+    <input type="email" placeholder="Email*" required="" autocomplete="additional-name">
+    <!-- <label>Password : </label> -->
+    <input type="password" placeholder="Password*" id="Passwords" required="">
+      <!-- <i class="far fa-eye"  onclick="displayConfirmP()" style="color: rgb(252, 250, 250);"></i> -->
+      <div class="forgat">
+        <a href="#" class="forgatPass">forgatPassword?</a>
+      </div>
+      </div>
+    
+    <button class="submitBtn">Login</button>
+  
+    </form>
+  </div>
+  </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
